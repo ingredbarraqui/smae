@@ -74,6 +74,7 @@ import { ImportacaoOrcamentoModule } from './importacao-orcamento/importacao-orc
 import { TrimPipe } from './common/pipes/trim-pipe';
 import { AcompanhamentoTipoModule } from './pp/acompanhamento-tipo/acompanhamento-tipo.module';
 import { RequestLogModule } from './request_log/request_log.module';
+import { TaskModule } from './task/task.module';
 
 @Module({
     imports: [
@@ -151,6 +152,7 @@ import { RequestLogModule } from './request_log/request_log.module';
         ImportacaoOrcamentoModule, // carregar depois do OrcamentoPrevistoModule
         AcompanhamentoTipoModule,
         RequestLogModule,
+        TaskModule,
     ],
     controllers: [AppController],
     providers: [
