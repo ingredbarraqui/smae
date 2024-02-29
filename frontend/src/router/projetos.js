@@ -209,14 +209,14 @@ export default {
       meta: {
         rotasParaMenuSecundário: () => {
           const rotasDePlanoDeProjeto = {
-            títuloParaGrupoDeLinksNoMenu: 'Plano de projeto',
+            título: 'Plano de projeto',
             rotas: [
               'projetosResumo',
             ],
           };
 
           const rotasDeAcompanhamento = {
-            títuloParaGrupoDeLinksNoMenu: 'Acompanhamento',
+            título: 'Acompanhamento',
             rotas: [
               'projetosDocumentos',
               'processosListar',
@@ -224,14 +224,14 @@ export default {
           };
 
           const rotasDeEncerramento = {
-            títuloParaGrupoDeLinksNoMenu: 'Encerramento',
+            título: 'Encerramento',
             rotas: [
               'liçõesAprendidasListar',
             ],
           };
 
           const orçamentos = {
-            títuloParaGrupoDeLinksNoMenu: 'Visão orçamentária',
+            título: 'Visão orçamentária',
             rotas: [
               'ProjetoOrçamentoCusto',
               'ProjetoOrçamentoPlanejado',
